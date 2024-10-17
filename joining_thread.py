@@ -1,8 +1,8 @@
 from threading import Thread
 from time import sleep
 
-def my_function_1(args):
-    for i in range(args):
+def my_function_1(arg):
+    for i in range(arg):
         print("Child thread-1 running", i)
         sleep(0.5)
 
