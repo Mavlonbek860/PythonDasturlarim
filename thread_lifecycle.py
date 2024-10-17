@@ -8,7 +8,7 @@ def fun(x):
 
 #Create new thread objects
 t1 = threading.Thread(target=fun, args=(100,))
-t2 = threading.Thread(target=fun, args=(100,))
+t2 = threading.Thread(target=fun, args=(90,))
 
 #Start new threads
 print("Thread state: CREATED.")
