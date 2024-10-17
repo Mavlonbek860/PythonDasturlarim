@@ -3,7 +3,7 @@ from time import sleep
 
 def my_function_1(arg):
     for i in range(arg):
-        print("Child thread-1 running", i)
+        print("Child thread-1 running and so tired now!", i)
         sleep(0.5)
 
 def my_function_2(args):
