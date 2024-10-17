@@ -29,3 +29,4 @@ t2.start()
 t2.join()
 
 print("Main thread finished. Exiting...")
+print("And having a rest.")
